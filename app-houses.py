@@ -6,7 +6,7 @@ plt.style.use('seaborn')
 st.title('California housing data(1990)by Xie Yuzhuo')
 df = pd.read_csv('housing.csv')
 
-housing_price_filter = st.slider('Median House Price :', 0, 500001, 200000)  # min, max, default
+housing_price_filter = st.slider('Median House Price :', 0, 500001, 88888)  # min, max, default
 
 
 # create a multi select
